@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCore.Angular.Mongodb.Web.Application", "NetCore.Angular.Mongodb.Web.Application\NetCore.Angular.Mongodb.Web.Application.csproj", "{369F9033-D0BD-4A30-A380-0D0716D68183}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCore.Angular.Mongodb.Web.Application", "NetCore.Angular.Mongodb.Web.Application\NetCore.Angular.Mongodb.Web.Application.csproj", "{369F9033-D0BD-4A30-A380-0D0716D68183}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCore.Angular.Mongodb.Contracts", "NetCore.Angular.Mongodb.Contracts\NetCore.Angular.Mongodb.Contracts.csproj", "{B0E0D120-85EA-489F-AB69-EEDE4C1FA5BE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCore.Angular.Mongodb.Database", "NetCore.Angular.Mongodb.Database\NetCore.Angular.Mongodb.Database.csproj", "{BFEF40AA-C50A-403B-8711-1C9F008AC02E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCore.Angular.Mongodb.Business", "NetCore.Angular.Mongodb.Business\NetCore.Angular.Mongodb.Business.csproj", "{30342700-8843-4382-986A-DD17119C4B37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCore.Angular.Mongodb.Data", "NetCore.Angular.Mongodb.Data\NetCore.Angular.Mongodb.Data.csproj", "{44F57EAA-459F-4C40-9152-CD818D32062B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +23,22 @@ Global
 		{369F9033-D0BD-4A30-A380-0D0716D68183}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{369F9033-D0BD-4A30-A380-0D0716D68183}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{369F9033-D0BD-4A30-A380-0D0716D68183}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0E0D120-85EA-489F-AB69-EEDE4C1FA5BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0E0D120-85EA-489F-AB69-EEDE4C1FA5BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0E0D120-85EA-489F-AB69-EEDE4C1FA5BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0E0D120-85EA-489F-AB69-EEDE4C1FA5BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFEF40AA-C50A-403B-8711-1C9F008AC02E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFEF40AA-C50A-403B-8711-1C9F008AC02E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFEF40AA-C50A-403B-8711-1C9F008AC02E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFEF40AA-C50A-403B-8711-1C9F008AC02E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30342700-8843-4382-986A-DD17119C4B37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30342700-8843-4382-986A-DD17119C4B37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30342700-8843-4382-986A-DD17119C4B37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30342700-8843-4382-986A-DD17119C4B37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44F57EAA-459F-4C40-9152-CD818D32062B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44F57EAA-459F-4C40-9152-CD818D32062B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44F57EAA-459F-4C40-9152-CD818D32062B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44F57EAA-459F-4C40-9152-CD818D32062B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

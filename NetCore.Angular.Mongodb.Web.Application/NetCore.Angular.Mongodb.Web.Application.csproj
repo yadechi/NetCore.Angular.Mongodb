@@ -4,4 +4,22 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="ClientApp\" />
+    <Folder Include="Code\" />
+    <Folder Include="Controllers\" />
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.SpaServices" Version="3.1.7" />
+    <PackageReference Include="Microsoft.AspNetCore.SpaServices.Extensions" Version="3.1.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NetCore.Angular.Mongodb.Contracts\NetCore.Angular.Mongodb.Contracts.csproj" />
+    <ProjectReference Include="..\NetCore.Angular.Mongodb.Database\NetCore.Angular.Mongodb.Database.csproj" />
+    <ProjectReference Include="..\NetCore.Angular.Mongodb.Data\NetCore.Angular.Mongodb.Data.csproj" />
+  </ItemGroup>
+
 </Project>
